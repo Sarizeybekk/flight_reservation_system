@@ -1,2 +1,0 @@
-# ucus_rezervasyon
- 
