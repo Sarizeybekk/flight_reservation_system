@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=sirket;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=sirket;Integrated Security=True");
 
 
         private void rezervasyon_Load(object sender, EventArgs e)

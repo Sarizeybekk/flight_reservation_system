@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
        
-        static string conString = "Data Source=DESKTOP-70UES6S;Initial Catalog=rezervasyon;Integrated Security=True";
+        static string conString = "Data Source=DESKTOP-2HUCK6R;Initial Catalog=rezervasyon;Integrated Security=True";
         SqlConnection connect = new SqlConnection(conString);
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
@@ -192,6 +192,7 @@ namespace WindowsFormsApp2
 
         private void button31_Click(object sender, EventArgs e)
         {
+
             connect.Open();
             SqlCommand commands = new SqlCommand("insert into rezervasyon_tablo(ad_soyad,telefon,row_no,tc,nereden,nereye,gidis_tarihi,donus_tarihi,ucret) values('" + textBox1.Text + "','" + maskedTextBox2.Text + "','" + textBox3.Text + "','" + textBox2.Text + "','" + comboBox1.Text + "','" + comboBox2.Text + "','"+dateTimePicker2.Value.ToString("yyyy-MM-dd")+"','"+dateTimePicker1.Value.ToString("yyyy-MM-dd")+ "','" +textBox4.Text + "')", connect);
 
@@ -219,12 +220,12 @@ namespace WindowsFormsApp2
         {
 
         }
-
+        public int ucret;
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            int ucret;
-            DateTime donus_tarihi = Convert.ToDateTime(dateTimePicker2.Text);
-            DateTime gidis_tarihi = Convert.ToDateTime(dateTimePicker1.Text);
+            
+            DateTime gidis_tarihi = Convert.ToDateTime(dateTimePicker2.Text);
+            DateTime donus_tarihi = Convert.ToDateTime(dateTimePicker1.Text);
             TimeSpan  sonuc = donus_tarihi - gidis_tarihi;//fark işlemi için kullanılır
             label10.Text = sonuc.TotalDays.ToString();
             ucret = Convert.ToInt32(label10.Text)*100;
@@ -256,6 +257,11 @@ namespace WindowsFormsApp2
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }

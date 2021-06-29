@@ -62,6 +62,7 @@ namespace WindowsFormsApp2
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -85,7 +86,6 @@ namespace WindowsFormsApp2
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -93,9 +93,10 @@ namespace WindowsFormsApp2
             // button30
             // 
             this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
-            this.button30.Location = new System.Drawing.Point(380, 428);
+            this.button30.Location = new System.Drawing.Point(285, 348);
+            this.button30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(54, 49);
+            this.button30.Size = new System.Drawing.Size(40, 40);
             this.button30.TabIndex = 59;
             this.button30.Text = "30";
             this.button30.UseVisualStyleBackColor = true;
@@ -104,9 +105,10 @@ namespace WindowsFormsApp2
             // button29
             // 
             this.button29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button29.BackgroundImage")));
-            this.button29.Location = new System.Drawing.Point(320, 428);
+            this.button29.Location = new System.Drawing.Point(240, 348);
+            this.button29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(54, 49);
+            this.button29.Size = new System.Drawing.Size(40, 40);
             this.button29.TabIndex = 58;
             this.button29.Text = "29";
             this.button29.UseVisualStyleBackColor = true;
@@ -115,9 +117,10 @@ namespace WindowsFormsApp2
             // button28
             // 
             this.button28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button28.BackgroundImage")));
-            this.button28.Location = new System.Drawing.Point(260, 428);
+            this.button28.Location = new System.Drawing.Point(195, 348);
+            this.button28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(54, 49);
+            this.button28.Size = new System.Drawing.Size(40, 40);
             this.button28.TabIndex = 57;
             this.button28.Text = "28";
             this.button28.UseVisualStyleBackColor = true;
@@ -126,9 +129,10 @@ namespace WindowsFormsApp2
             // button27
             // 
             this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
-            this.button27.Location = new System.Drawing.Point(152, 437);
+            this.button27.Location = new System.Drawing.Point(114, 355);
+            this.button27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(54, 49);
+            this.button27.Size = new System.Drawing.Size(40, 40);
             this.button27.TabIndex = 56;
             this.button27.Text = "27";
             this.button27.UseVisualStyleBackColor = true;
@@ -137,9 +141,10 @@ namespace WindowsFormsApp2
             // button26
             // 
             this.button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button26.BackgroundImage")));
-            this.button26.Location = new System.Drawing.Point(92, 437);
+            this.button26.Location = new System.Drawing.Point(69, 355);
+            this.button26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(54, 49);
+            this.button26.Size = new System.Drawing.Size(40, 40);
             this.button26.TabIndex = 55;
             this.button26.Text = "26";
             this.button26.UseVisualStyleBackColor = true;
@@ -148,9 +153,10 @@ namespace WindowsFormsApp2
             // button25
             // 
             this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
-            this.button25.Location = new System.Drawing.Point(32, 437);
+            this.button25.Location = new System.Drawing.Point(24, 355);
+            this.button25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(54, 49);
+            this.button25.Size = new System.Drawing.Size(40, 40);
             this.button25.TabIndex = 54;
             this.button25.Text = "25";
             this.button25.UseVisualStyleBackColor = true;
@@ -159,9 +165,10 @@ namespace WindowsFormsApp2
             // button24
             // 
             this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
-            this.button24.Location = new System.Drawing.Point(380, 344);
+            this.button24.Location = new System.Drawing.Point(285, 280);
+            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(54, 49);
+            this.button24.Size = new System.Drawing.Size(40, 40);
             this.button24.TabIndex = 53;
             this.button24.Text = "24";
             this.button24.UseVisualStyleBackColor = true;
@@ -170,9 +177,10 @@ namespace WindowsFormsApp2
             // button23
             // 
             this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
-            this.button23.Location = new System.Drawing.Point(320, 344);
+            this.button23.Location = new System.Drawing.Point(240, 280);
+            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(54, 49);
+            this.button23.Size = new System.Drawing.Size(40, 40);
             this.button23.TabIndex = 52;
             this.button23.Text = "23";
             this.button23.UseVisualStyleBackColor = true;
@@ -181,9 +189,10 @@ namespace WindowsFormsApp2
             // button22
             // 
             this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
-            this.button22.Location = new System.Drawing.Point(260, 344);
+            this.button22.Location = new System.Drawing.Point(195, 280);
+            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(54, 49);
+            this.button22.Size = new System.Drawing.Size(40, 40);
             this.button22.TabIndex = 51;
             this.button22.Text = "22";
             this.button22.UseVisualStyleBackColor = true;
@@ -192,9 +201,10 @@ namespace WindowsFormsApp2
             // button21
             // 
             this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
-            this.button21.Location = new System.Drawing.Point(152, 344);
+            this.button21.Location = new System.Drawing.Point(114, 280);
+            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(54, 49);
+            this.button21.Size = new System.Drawing.Size(40, 40);
             this.button21.TabIndex = 50;
             this.button21.Text = "21";
             this.button21.UseVisualStyleBackColor = true;
@@ -203,9 +213,10 @@ namespace WindowsFormsApp2
             // button20
             // 
             this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
-            this.button20.Location = new System.Drawing.Point(92, 344);
+            this.button20.Location = new System.Drawing.Point(69, 280);
+            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(54, 49);
+            this.button20.Size = new System.Drawing.Size(40, 40);
             this.button20.TabIndex = 49;
             this.button20.Text = "20";
             this.button20.UseVisualStyleBackColor = true;
@@ -214,9 +225,10 @@ namespace WindowsFormsApp2
             // button19
             // 
             this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
-            this.button19.Location = new System.Drawing.Point(32, 344);
+            this.button19.Location = new System.Drawing.Point(24, 280);
+            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(54, 49);
+            this.button19.Size = new System.Drawing.Size(40, 40);
             this.button19.TabIndex = 48;
             this.button19.Text = "19";
             this.button19.UseVisualStyleBackColor = true;
@@ -225,9 +237,10 @@ namespace WindowsFormsApp2
             // button18
             // 
             this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
-            this.button18.Location = new System.Drawing.Point(380, 248);
+            this.button18.Location = new System.Drawing.Point(285, 202);
+            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(54, 49);
+            this.button18.Size = new System.Drawing.Size(40, 40);
             this.button18.TabIndex = 47;
             this.button18.Text = "18";
             this.button18.UseVisualStyleBackColor = true;
@@ -236,9 +249,10 @@ namespace WindowsFormsApp2
             // button17
             // 
             this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
-            this.button17.Location = new System.Drawing.Point(320, 248);
+            this.button17.Location = new System.Drawing.Point(240, 202);
+            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(54, 49);
+            this.button17.Size = new System.Drawing.Size(40, 40);
             this.button17.TabIndex = 46;
             this.button17.Text = "17";
             this.button17.UseVisualStyleBackColor = true;
@@ -247,9 +261,10 @@ namespace WindowsFormsApp2
             // button16
             // 
             this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-            this.button16.Location = new System.Drawing.Point(260, 248);
+            this.button16.Location = new System.Drawing.Point(195, 202);
+            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(54, 49);
+            this.button16.Size = new System.Drawing.Size(40, 40);
             this.button16.TabIndex = 45;
             this.button16.Text = "16";
             this.button16.UseVisualStyleBackColor = true;
@@ -258,9 +273,10 @@ namespace WindowsFormsApp2
             // button15
             // 
             this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
-            this.button15.Location = new System.Drawing.Point(152, 248);
+            this.button15.Location = new System.Drawing.Point(114, 202);
+            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(54, 49);
+            this.button15.Size = new System.Drawing.Size(40, 40);
             this.button15.TabIndex = 44;
             this.button15.Text = "15";
             this.button15.UseVisualStyleBackColor = true;
@@ -269,9 +285,10 @@ namespace WindowsFormsApp2
             // button14
             // 
             this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
-            this.button14.Location = new System.Drawing.Point(92, 248);
+            this.button14.Location = new System.Drawing.Point(69, 202);
+            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(54, 49);
+            this.button14.Size = new System.Drawing.Size(40, 40);
             this.button14.TabIndex = 43;
             this.button14.Text = "14";
             this.button14.UseVisualStyleBackColor = true;
@@ -280,9 +297,10 @@ namespace WindowsFormsApp2
             // button13
             // 
             this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
-            this.button13.Location = new System.Drawing.Point(32, 248);
+            this.button13.Location = new System.Drawing.Point(24, 202);
+            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(54, 49);
+            this.button13.Size = new System.Drawing.Size(40, 40);
             this.button13.TabIndex = 42;
             this.button13.Text = "13";
             this.button13.UseVisualStyleBackColor = true;
@@ -291,9 +309,10 @@ namespace WindowsFormsApp2
             // button12
             // 
             this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.Location = new System.Drawing.Point(380, 161);
+            this.button12.Location = new System.Drawing.Point(285, 131);
+            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(54, 49);
+            this.button12.Size = new System.Drawing.Size(40, 40);
             this.button12.TabIndex = 41;
             this.button12.Text = "12";
             this.button12.UseVisualStyleBackColor = true;
@@ -302,9 +321,10 @@ namespace WindowsFormsApp2
             // button11
             // 
             this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
-            this.button11.Location = new System.Drawing.Point(320, 161);
+            this.button11.Location = new System.Drawing.Point(240, 131);
+            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(54, 49);
+            this.button11.Size = new System.Drawing.Size(40, 40);
             this.button11.TabIndex = 40;
             this.button11.Text = "11";
             this.button11.UseVisualStyleBackColor = true;
@@ -313,9 +333,10 @@ namespace WindowsFormsApp2
             // button10
             // 
             this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
-            this.button10.Location = new System.Drawing.Point(260, 161);
+            this.button10.Location = new System.Drawing.Point(195, 131);
+            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(54, 49);
+            this.button10.Size = new System.Drawing.Size(40, 40);
             this.button10.TabIndex = 39;
             this.button10.Text = "10";
             this.button10.UseVisualStyleBackColor = true;
@@ -324,9 +345,10 @@ namespace WindowsFormsApp2
             // button9
             // 
             this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.Location = new System.Drawing.Point(152, 161);
+            this.button9.Location = new System.Drawing.Point(114, 131);
+            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(54, 49);
+            this.button9.Size = new System.Drawing.Size(40, 40);
             this.button9.TabIndex = 38;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
@@ -335,9 +357,10 @@ namespace WindowsFormsApp2
             // button8
             // 
             this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.Location = new System.Drawing.Point(92, 161);
+            this.button8.Location = new System.Drawing.Point(69, 131);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(54, 49);
+            this.button8.Size = new System.Drawing.Size(40, 40);
             this.button8.TabIndex = 37;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
@@ -346,9 +369,10 @@ namespace WindowsFormsApp2
             // button7
             // 
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.Location = new System.Drawing.Point(32, 161);
+            this.button7.Location = new System.Drawing.Point(24, 131);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(54, 49);
+            this.button7.Size = new System.Drawing.Size(40, 40);
             this.button7.TabIndex = 36;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
@@ -357,9 +381,10 @@ namespace WindowsFormsApp2
             // button6
             // 
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.Location = new System.Drawing.Point(380, 58);
+            this.button6.Location = new System.Drawing.Point(285, 47);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(54, 49);
+            this.button6.Size = new System.Drawing.Size(40, 40);
             this.button6.TabIndex = 35;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
@@ -368,9 +393,10 @@ namespace WindowsFormsApp2
             // button5
             // 
             this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.Location = new System.Drawing.Point(320, 58);
+            this.button5.Location = new System.Drawing.Point(240, 47);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(54, 49);
+            this.button5.Size = new System.Drawing.Size(40, 40);
             this.button5.TabIndex = 34;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
@@ -379,9 +405,10 @@ namespace WindowsFormsApp2
             // button4
             // 
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.Location = new System.Drawing.Point(260, 58);
+            this.button4.Location = new System.Drawing.Point(195, 47);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(54, 49);
+            this.button4.Size = new System.Drawing.Size(40, 40);
             this.button4.TabIndex = 33;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
@@ -390,9 +417,10 @@ namespace WindowsFormsApp2
             // button3
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.Location = new System.Drawing.Point(152, 58);
+            this.button3.Location = new System.Drawing.Point(114, 47);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(54, 49);
+            this.button3.Size = new System.Drawing.Size(40, 40);
             this.button3.TabIndex = 32;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
@@ -401,9 +429,10 @@ namespace WindowsFormsApp2
             // button2
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.Location = new System.Drawing.Point(92, 58);
+            this.button2.Location = new System.Drawing.Point(69, 47);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(54, 49);
+            this.button2.Size = new System.Drawing.Size(40, 40);
             this.button2.TabIndex = 31;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
@@ -412,9 +441,10 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.Location = new System.Drawing.Point(32, 58);
+            this.button1.Location = new System.Drawing.Point(24, 47);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(54, 49);
+            this.button1.Size = new System.Drawing.Size(40, 40);
             this.button1.TabIndex = 30;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
@@ -455,9 +485,11 @@ namespace WindowsFormsApp2
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(64, 62);
+            this.groupBox1.Location = new System.Drawing.Point(48, 50);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(516, 581);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(387, 472);
             this.groupBox1.TabIndex = 60;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Koltuk numaraları:";
@@ -490,20 +522,34 @@ namespace WindowsFormsApp2
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox2.Location = new System.Drawing.Point(623, 62);
+            this.groupBox2.Location = new System.Drawing.Point(467, 50);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(552, 581);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(414, 472);
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Yolcu Bilgileri:";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(350, 352);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 17);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "label11";
+            this.label11.Visible = false;
+            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(113, 548);
+            this.linkLabel1.Location = new System.Drawing.Point(85, 445);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(388, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(324, 17);
             this.linkLabel1.TabIndex = 29;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Diger Hava Yolu Şirketlerine bakmak ister misiniz ?";
@@ -512,35 +558,42 @@ namespace WindowsFormsApp2
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(360, 437);
+            this.label10.Location = new System.Drawing.Point(270, 355);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 19);
+            this.label10.Size = new System.Drawing.Size(74, 17);
             this.label10.TabIndex = 28;
             this.label10.Text = "hesaplama";
             this.label10.Visible = false;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(223, 425);
+            this.textBox4.Location = new System.Drawing.Point(167, 345);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(98, 27);
+            this.textBox4.Size = new System.Drawing.Size(74, 23);
             this.textBox4.TabIndex = 27;
+            this.textBox4.Visible = false;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(165, 428);
+            this.label9.Location = new System.Drawing.Point(124, 348);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(54, 19);
+            this.label9.Size = new System.Drawing.Size(43, 17);
             this.label9.TabIndex = 26;
             this.label9.Text = "Ücret:";
+            this.label9.Visible = false;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(444, 173);
+            this.checkBox2.Location = new System.Drawing.Point(333, 141);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(98, 23);
+            this.checkBox2.Size = new System.Drawing.Size(84, 21);
             this.checkBox2.TabIndex = 25;
             this.checkBox2.Text = "Tek Gidiş";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -548,17 +601,19 @@ namespace WindowsFormsApp2
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(223, 173);
+            this.dateTimePicker2.Location = new System.Drawing.Point(167, 141);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(207, 27);
+            this.dateTimePicker2.Size = new System.Drawing.Size(156, 23);
             this.dateTimePicker2.TabIndex = 24;
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(223, 215);
+            this.dateTimePicker1.Location = new System.Drawing.Point(167, 175);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(207, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(156, 23);
             this.dateTimePicker1.TabIndex = 23;
             this.dateTimePicker1.Visible = false;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
@@ -566,9 +621,10 @@ namespace WindowsFormsApp2
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(101, 223);
+            this.label4.Location = new System.Drawing.Point(76, 181);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 19);
+            this.label4.Size = new System.Drawing.Size(86, 17);
             this.label4.TabIndex = 21;
             this.label4.Text = "dönüş tarihi:";
             this.label4.Visible = false;
@@ -576,9 +632,10 @@ namespace WindowsFormsApp2
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 179);
+            this.label3.Location = new System.Drawing.Point(85, 145);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 19);
+            this.label3.Size = new System.Drawing.Size(78, 17);
             this.label3.TabIndex = 20;
             this.label3.Text = "gidiş tarihi:";
             // 
@@ -589,9 +646,10 @@ namespace WindowsFormsApp2
             "BARTIN",
             "ANKARA",
             "İZMİR"});
-            this.comboBox2.Location = new System.Drawing.Point(223, 90);
+            this.comboBox2.Location = new System.Drawing.Point(167, 73);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 27);
+            this.comboBox2.Size = new System.Drawing.Size(92, 25);
             this.comboBox2.TabIndex = 19;
             // 
             // comboBox1
@@ -601,43 +659,49 @@ namespace WindowsFormsApp2
             "ANKARA",
             "BARTIN",
             "İZMİR"});
-            this.comboBox1.Location = new System.Drawing.Point(223, 46);
+            this.comboBox1.Location = new System.Drawing.Point(167, 37);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 27);
+            this.comboBox1.Size = new System.Drawing.Size(92, 25);
             this.comboBox1.TabIndex = 18;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(140, 98);
+            this.label2.Location = new System.Drawing.Point(105, 80);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 19);
+            this.label2.Size = new System.Drawing.Size(51, 17);
             this.label2.TabIndex = 17;
             this.label2.Text = "Nereye";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(129, 61);
+            this.label1.Location = new System.Drawing.Point(97, 50);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 19);
+            this.label1.Size = new System.Drawing.Size(60, 17);
             this.label1.TabIndex = 16;
             this.label1.Text = "Nereden";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(223, 344);
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(167, 280);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(207, 27);
+            this.textBox3.Size = new System.Drawing.Size(156, 23);
             this.textBox3.TabIndex = 15;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(223, 388);
+            this.checkBox1.Location = new System.Drawing.Point(167, 315);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(269, 23);
+            this.checkBox1.Size = new System.Drawing.Size(222, 21);
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Koltuk numaramı dogru seçtim.";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -646,18 +710,20 @@ namespace WindowsFormsApp2
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(81, 352);
+            this.label8.Location = new System.Drawing.Point(61, 286);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 19);
+            this.label8.Size = new System.Drawing.Size(112, 17);
             this.label8.TabIndex = 9;
             this.label8.Text = "Koltuk numarası:";
             // 
             // button31
             // 
             this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
-            this.button31.Location = new System.Drawing.Point(223, 486);
+            this.button31.Location = new System.Drawing.Point(167, 395);
+            this.button31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(269, 39);
+            this.button31.Size = new System.Drawing.Size(202, 32);
             this.button31.TabIndex = 6;
             this.button31.Text = "Ödeme Yap";
             this.button31.UseVisualStyleBackColor = true;
@@ -666,72 +732,70 @@ namespace WindowsFormsApp2
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(223, 300);
+            this.maskedTextBox2.Location = new System.Drawing.Point(167, 244);
+            this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.maskedTextBox2.Mask = "(999) 000-0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(207, 27);
+            this.maskedTextBox2.Size = new System.Drawing.Size(156, 23);
             this.maskedTextBox2.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(223, 258);
+            this.textBox2.Location = new System.Drawing.Point(167, 210);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.MaxLength = 11;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(207, 27);
+            this.textBox2.Size = new System.Drawing.Size(156, 23);
             this.textBox2.TabIndex = 4;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(223, 136);
+            this.textBox1.Location = new System.Drawing.Point(167, 110);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(207, 27);
+            this.textBox1.Size = new System.Drawing.Size(156, 23);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(134, 308);
+            this.label7.Location = new System.Drawing.Point(100, 250);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 19);
+            this.label7.Size = new System.Drawing.Size(58, 17);
             this.label7.TabIndex = 2;
             this.label7.Text = "Telefon:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(172, 263);
+            this.label6.Location = new System.Drawing.Point(129, 214);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 19);
+            this.label6.Size = new System.Drawing.Size(27, 17);
             this.label6.TabIndex = 1;
             this.label6.Text = "TC:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(73, 139);
+            this.label5.Location = new System.Drawing.Point(55, 113);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 19);
+            this.label5.Size = new System.Drawing.Size(107, 17);
             this.label5.TabIndex = 0;
             this.label5.Text = "Yolcu Ad Soyad:";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(467, 433);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 19);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "label11";
-            // 
             // THYkoltuk
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1209, 706);
+            this.ClientSize = new System.Drawing.Size(907, 574);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "THYkoltuk";
             this.Text = "THYkoltuk";
             this.groupBox1.ResumeLayout(false);

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp2
 {
@@ -16,7 +18,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-       
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=rezervasyon;Integrated Security=True");
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -68,7 +70,7 @@ namespace WindowsFormsApp2
             label7.Text = textBox4.Text;
         }
 
-        
+
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -96,7 +98,7 @@ namespace WindowsFormsApp2
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
-       {
+        {
 
         }
 
@@ -104,7 +106,8 @@ namespace WindowsFormsApp2
         {
             int ay;
             int yil;
-            for (ay = 1; ay < 13; ay++){
+            for (ay = 1; ay < 13; ay++)
+            {
                 comboBox1.Items.Add(ay);
 
             }
@@ -126,8 +129,37 @@ namespace WindowsFormsApp2
 
         private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
-            if(textBox2.Text> THYkoltuk.ücret_al)
-          
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglan.Open();
+            SqlCommand commands = new SqlCommand("insert into rezervasyon_tablo(kart_adsoyad,kart_no,kart_ay,kart_yil,kart_cvv,bakiye) values('" + textBox1.Text + "','" + textBox4.Text + "','" + comboBox1.Text + "','" + comboBox2.Text + "','" + textBox3.Text + "','" + textBox2.Text + "')", baglan);
+
+            commands.ExecuteNonQuery();
+            baglan.Close();
+            MessageBox.Show("Ödemeniz yapılmıştır. İyi Uçuşlar");
+        }
+
+        
+        private void textBox5_TextChanged_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            baglan.Open();
+            SqlCommand komut = new SqlCommand("select *from rezervasyon_tablo", baglan);
+            SqlDataReader oku = komut.ExecuteReader();
+            while (oku.Read())
+            {
+                textBox5.Text=(oku[9].ToString());
+            }
+            baglan.Close();
+           
         }
     }
 }

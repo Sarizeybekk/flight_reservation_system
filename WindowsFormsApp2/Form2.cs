@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
             {
                 string e_posta = textBox1.Text;
                 string sifre = textBox2.Text;
-                con = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=Uyeler;Integrated Security=True");
+                con = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=Uyeler;Integrated Security=True");
                 komut = new SqlCommand();
                 con.Open();
                 komut.Connection = con;
