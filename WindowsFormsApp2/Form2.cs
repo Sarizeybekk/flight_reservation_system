@@ -55,14 +55,15 @@ namespace WindowsFormsApp2
 
                 if (oku.Read())
 
-                    if (oku["uyeid"].ToString() == "2")
+                    if (oku["uyeid"].ToString() == "1"|| oku["uyeid"].ToString() == "2")
                     {
+                        MessageBox.Show("Yönetici girişi yaptınız");
                         this.Hide();
                         Form4 frm = new Form4();
                         frm.Show();
                     }
-                    else { 
-                    MessageBox.Show("Kullanıcı girişi yaptınız");
+                    else {
+                        MessageBox.Show("Kullanıcı girişi yaptınız");
                         this.Hide();
                         rezervasyon frm = new rezervasyon();
                         frm.Show();
