@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=sirket;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=sirket;Integrated Security=True");
 
 
         private void rezervasyon_Load(object sender, EventArgs e)
@@ -103,12 +103,12 @@ namespace WindowsFormsApp2
             else if(comboBox3.SelectedItem=="ANADOLU JET")
             {
                 this.Hide();
-                Form2 frm = new Form2();
+                ANADOLU_JET frm = new ANADOLU_JET();
                 frm.Show();
             }
             else
             {
-                MessageBox.Show("FFF");
+                MessageBox.Show("Lütfen havayolu şirketi seçiniz");
             }
            
            

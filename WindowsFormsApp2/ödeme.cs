@@ -18,7 +18,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=rezervasyon;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=rezervasyon;Integrated Security=True");
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

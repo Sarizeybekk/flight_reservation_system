@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
        
-        static string conString = "Data Source=DESKTOP-2HUCK6R;Initial Catalog=rezervasyon;Integrated Security=True";
+        static string conString = "Data Source=DESKTOP-70UES6S;Initial Catalog=rezervasyon;Integrated Security=True";
         SqlConnection connect = new SqlConnection(conString);
         private void textBox3_TextChanged(object sender, EventArgs e)
         {

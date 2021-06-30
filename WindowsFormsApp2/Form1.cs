@@ -17,7 +17,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-        static string conString = "Data Source=DESKTOP-2HUCK6R;Initial Catalog=Uyeler;Integrated Security=True";  //veritabanından gerekli baglantıyı çeker.
+        static string conString = "Data Source=DESKTOP-70UES6S;Initial Catalog=Uyeler;Integrated Security=True";  //veritabanından gerekli baglantıyı çeker.
         SqlConnection connect = new SqlConnection(conString);
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

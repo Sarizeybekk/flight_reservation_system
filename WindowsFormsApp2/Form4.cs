@@ -18,8 +18,8 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=sirket;Integrated Security=True");
-        SqlConnection baglan2 = new SqlConnection("Data Source=DESKTOP-2HUCK6R;Initial Catalog=Uyeler;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=sirket;Integrated Security=True");
+        SqlConnection baglan2 = new SqlConnection("Data Source=DESKTOP-70UES6S;Initial Catalog=Uyeler;Integrated Security=True");
         private void Form4_Load(object sender, EventArgs e)
         {
 
@@ -88,6 +88,11 @@ namespace WindowsFormsApp2
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
