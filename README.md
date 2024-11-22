@@ -28,6 +28,7 @@ Bu proje aşağıdaki teknolojilerle geliştirilmiştir:
 - **C#**: Projenin temel programlama dili.
 - **Windows Forms**: Uygulama arayüzü için kullanılmıştır.
 
+
 ---
 
 ## 🚀 Nasıl Çalıştırılır?
@@ -35,8 +36,7 @@ Bu proje aşağıdaki teknolojilerle geliştirilmiştir:
 1. **Projeyi İndirin veya Klonlayın:**
    ```bash
    git clone <repository-url>
-  
-![alt text](<ekran resimleri/Ekran Alıntısı5.PNG>)
-![alt text](<ekran resimleri/Ekran Alıntısı8.PNG>)
-![alt text](image.png)
-![alt text](image-1.png)
+
+
+  ![alt text](image-2.png)
+![alt text](image-3.png)
